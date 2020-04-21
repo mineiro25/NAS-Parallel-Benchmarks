@@ -1,0 +1,10 @@
+"Dstat 0.7.2 CSV output"
+"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
+"Host:","compute-652-1.local",,,,"User:","a78156"
+"Cmdline:","dstat -cdngym --output /home/a78156/ESC/NPB3.3.1/NPB3.3-OMP/results/652/dstat_is_A_O3_4.csv",,,,"Date:","10 Apr 2020 21:32:51 WEST"
+
+"total cpu usage",,,,,,"dsk/total",,"net/total",,"paging",,"system",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","recv","send","in","out","int","csw","used","buff","cach","free"
+6.587,0.095,93.302,0.015,0.000,0.001,115.234,10487.781,0.0,0.0,0.0,0.0,3725.387,2765.777,1185550336.0,287551488.0,1070895104.0,65111437312.0
+6.223,0.125,93.627,0.0,0.0,0.025,0.0,0.0,0.0,0.0,0.0,0.0,5109.0,3117.0,1170055168.0,287551488.0,1070899200.0,65126928384.0
+0.0,0.025,99.975,0.0,0.0,0.0,0.0,0.0,3514.0,7575.0,0.0,0.0,2013.0,2147.0,1167998976.0,287551488.0,1070899200.0,65128984576.0

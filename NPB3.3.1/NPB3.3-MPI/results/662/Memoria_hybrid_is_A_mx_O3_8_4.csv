@@ -1,0 +1,5 @@
+Linux 2.6.32-279.14.1.el6.x86_64 (compute-662-5.local) 	04/19/20 	_x86_64_	(48 CPU)
+
+17:39:26    kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit
+17:39:27     64455608   1612980      2.44    254248    344188    183548      0.27
+17:39:28     64455664   1612924      2.44    254248    344188    183548      0.27

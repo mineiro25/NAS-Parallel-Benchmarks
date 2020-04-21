@@ -1,0 +1,59 @@
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15789 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15802 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_mx_O3_"$n_procs"_"4".csv
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15815 Terminated              mpstat -P ALL 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/CPU_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15827 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15842 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_mx_O3_"$n_procs"_"4".csv
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15859 Terminated              mpstat -P ALL 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/CPU_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15873 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15894 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_mx_O3_"$n_procs"_"4".csv
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15916 Terminated              mpstat -P ALL 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/CPU_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15937 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 15975 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_mx_O3_"$n_procs"_"4".csv
+[compute-662-2.local:16058] PML cm cannot be selected
+[compute-662-2.local:16065] PML cm cannot be selected
+[compute-662-2.local:16055] PML cm cannot be selected
+[compute-662-2.local:16066] PML cm cannot be selected
+[compute-662-1.local:40968] PML cm cannot be selected
+[compute-662-1.local:40964] PML cm cannot be selected
+[compute-662-1.local:40974] PML cm cannot be selected
+[compute-662-1.local:40972] PML cm cannot be selected
+[compute-662-1.local:40979] PML cm cannot be selected
+[compute-662-2.local:16050] 8 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-662-2.local:16050] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 16013 Terminated              mpstat -P ALL 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/CPU_ep_C_mx_O3_"$n_procs"_"4".csv
+[compute-662-2.local:16108] PML cm cannot be selected
+[compute-662-2.local:16110] PML cm cannot be selected
+[compute-662-1.local:41021] PML cm cannot be selected
+[compute-662-1.local:41027] PML cm cannot be selected
+[compute-662-1.local:41020] PML cm cannot be selected
+[compute-662-1.local:41025] PML cm cannot be selected
+[compute-662-1.local:41030] PML cm cannot be selected
+[compute-662-1.local:41028] PML cm cannot be selected
+[compute-662-1.local:41031] PML cm cannot be selected
+[compute-662-1.local:41034] PML cm cannot be selected
+[compute-662-2.local:16103] 8 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-662-2.local:16103] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 16049 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+[compute-662-1.local:41066] PML cm cannot be selected
+[compute-662-2.local:16167] PML cm cannot be selected
+[compute-662-2.local:16163] PML cm cannot be selected
+[compute-662-1.local:41072] PML cm cannot be selected
+[compute-662-1.local:41075] PML cm cannot be selected
+[compute-662-1.local:41071] PML cm cannot be selected
+[compute-662-1.local:41079] PML cm cannot be selected
+[compute-662-1.local:41077] PML cm cannot be selected
+[compute-662-1.local:41082] PML cm cannot be selected
+[compute-662-1.local:41084] PML cm cannot be selected
+[compute-662-2.local:16156] 9 more processes have sent help message help-mca-base.txt / find-available:none-found
+[compute-662-2.local:16156] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+/var/spool/torque/mom_priv/jobs/716661.search6.di.uminho.pt.SC: line 14: 16102 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_mx_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe

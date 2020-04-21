@@ -1,0 +1,115 @@
+--------------------------------------------------------------------------
+WARNING: a request was made to bind a process. While the system
+supports binding the process itself, at least one node does NOT
+support binding memory to the process location.
+
+  Node:  compute-662-5
+
+Open MPI uses the "hwloc" library to perform process and memory
+binding. This error message means that hwloc has indicated that
+processor binding support is not available on this machine.
+
+On OS X, processor and memory binding is not available at all (i.e.,
+the OS does not expose this functionality).
+
+On Linux, lack of the functionality can mean that you are on a
+platform where processor and memory affinity is not supported in Linux
+itself, or that hwloc was built without NUMA and/or processor affinity
+support. When building hwloc (which, depending on your Open MPI
+installation, may be embedded in Open MPI itself), it is important to
+have the libnuma header and library files available. Different linux
+distributions package these files under different names; look for
+packages with the word "numa" in them. You may also need a developer
+version of the package (e.g., with "dev" or "devel" in the name) to
+obtain the relevant header files.
+
+If you are getting this message on a non-OS X, non-Linux platform,
+then hwloc does not support processor / memory affinity on this
+platform. If the OS/platform does actually support processor / memory
+affinity, then you should contact the hwloc maintainers:
+https://github.com/open-mpi/hwloc.
+
+This is a warning only; your job will continue, though performance may
+be degraded.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - SP-MZ MPI+OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations:      400    dt:   0.001500
+ Number of active processes:     4
+
+ Use the default load factors with threads
+ Total number of threads:     16  (  4.0 threads/process)
+
+ Calculated speedup =     16.00
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2800097900548E+03 0.2800097900548E+03 0.3917998666400E-13
+           2 0.2268349014438E+02 0.2268349014438E+02 0.1628859669493E-12
+           3 0.7000852739901E+02 0.7000852739901E+02 0.1096132404339E-13
+           4 0.5000771004061E+02 0.5000771004061E+02 0.5044075623339E-13
+           5 0.5552068537578E+03 0.5552068537578E+03 0.3112425435084E-13
+ Comparison of RMS-norms of solution error
+           1 0.3112046666578E+02 0.3112046666578E+02 0.2717008920963E-13
+           2 0.1172197785348E+02 0.1172197785348E+02 0.1247180038301E-12
+           3 0.1486616708032E+02 0.1486616708032E+02 0.3883421797198E-13
+           4 0.1313680576292E+02 0.1313680576292E+02 0.6936778049840E-13
+           5 0.7365834058154E+02 0.7365834058154E+02 0.5903637671606E-13
+ Verification Successful
+
+
+ SP-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      400
+ Time in seconds =                    26.63
+ Total processes =                        4
+ Total threads   =                       16
+ Mop/s total     =                  2769.87
+ Mop/s/thread    =                   173.12
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              17 Apr 2020
+
+ Compile options:
+    F77          = mpifort -fopenmp 
+    FLINK        = $(F77)
+    F_LIB        = -L/usr/local/lib -lmpi
+    F_INC        = (none)
+    FFLAGS       = (none)
+    FLINKFLAGS   = (none)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: /home/a78156/ESC/NPB3.3.1-MZ/NPB3.3-MZ-MPI/bin/sp-mz.A.32
+Node: compute-662-5
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+32 total processes failed to start

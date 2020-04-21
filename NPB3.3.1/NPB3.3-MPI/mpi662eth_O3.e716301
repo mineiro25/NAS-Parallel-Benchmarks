@@ -1,0 +1,24 @@
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26045 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26062 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_eth_O3_"$n_procs"_"4".csv
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26075 Terminated              mpstat -P ALL 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/CPU_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26090 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26105 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_eth_O3_"$n_procs"_"4".csv
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26120 Terminated              mpstat -P ALL 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/CPU_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26138 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26159 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_eth_O3_"$n_procs"_"4".csv
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26179 Terminated              mpstat -P ALL 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/CPU_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26199 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26231 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_eth_O3_"$n_procs"_"4".csv
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26263 Terminated              mpstat -P ALL 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/CPU_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26294 Terminated              sar -r 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Memoria_ep_C_eth_O3_"$n_procs"_"4".csv
+Cannot write data to system activity file: Broken pipe
+/var/spool/torque/mom_priv/jobs/716301.search6.di.uminho.pt.SC: line 14: 26351 Terminated              sar -n DEV 1 > /home/a78156/ESC/NPB3.3.1/NPB3.3-MPI/results/662/Rede_ep_C_eth_O3_"$n_procs"_"4".csv
